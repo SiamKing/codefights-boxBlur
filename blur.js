@@ -2,9 +2,7 @@ function boxBlur(image) {
       var results = [],
           lineArr = [],
           i = 0,
-          j = 0,
-          k;
-
+          j = 0;
 
     while (i < image.length - 2) {
         var arr = []
